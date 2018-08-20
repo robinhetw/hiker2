@@ -13,9 +13,14 @@
 }
 @media only screen and (max-width: 767px) {
   * {
-    font-size: 20px;
+    font-size: 16px;
   }
 
+  .sticky-nav .hiker-logo img{
+    width:6rem;
+    margin-top:.5rem;
+  
+  }
   .about .flexbox {
     flex-wrap: wrap;
   }
@@ -184,7 +189,8 @@
   }
   .mobile-icon-group li a ion-icon {
     display: block;
-    font-size: 60px;
+    font-size: 30px;
+   
   }
 }
 
